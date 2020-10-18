@@ -1,0 +1,25 @@
+@import "reset.css";
+
+/* font-family: "ArialBlack"; */
+@font-face {
+  font-family: "ArialBlack";
+  src: url("fonts/ArialBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  color: #000;
+  font-family: "ArialBlack";
+  font-style: normal;
+  font-variant: normal;
+  font-size: 100px;
+  margin: 100px;
+}
+
+canvas {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    display: block;
+}
